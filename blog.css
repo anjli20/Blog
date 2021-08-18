@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.blog-img-container {
+  text-align: center;
+}
+section.blog-container {
+  padding: 0 70px;
+}
+.blog-img {
+  width: 50%;
+  height: 500px;
+  border: 4px solid black;
+  border-radius: 25px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1.blog-title {
+  font-size: 40px;
+  max-width: 70%;
+  margin: 50px 0;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(14, 14, 14);
+}
+.blog-ol {
+  font-size: 2rem;
+}
+.blog-container p {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(5, 5, 5);
+}
+h2.blog-subtitle {
+  font-size: 2rem;
+  max-width: 80%;
+  margin: 30px 0;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(8, 8, 8);
+}
+.blog-review {
+  padding: 0 70px;
+}
+.like {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(0, 0, 0);
+}
+.like i {
+  color: #1900fd;
+}
+#msg {
+  resize: none;
+  width: 40%;
+  height: 150px;
+  outline: none;
+  border: 1px solid #080808;
+  padding: 10px;
+  border-radius: 15px;
+  columns: rgb(12, 12, 12);
+}
+label[for="msg"] {
+  font-size: 1.3rem;
+  font-family: Ubuntu, monospace;
+  margin: 1rem 0;
+  display: inline-block;
+  color: rgb(8, 8, 8);
+}
+form button {
+  height: 40px;
+  width: 150px;
+  padding: 5px;
+  background-color: #81e0b9;
+  font-size: 20px;
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+  margin: 15px 0;
+  border-radius: 8px;
+  outline: none;
+}
+#cmt{
+  margin-top: -10px;
+}
